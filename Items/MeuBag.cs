@@ -1,7 +1,7 @@
 using Terraria;
 using Terraria.ModLoader;
 
-namespace JoostMod.Items
+namespace BloodyKillMod.Items
 {
     public class JumboCactuarBag : ModItem
     {
