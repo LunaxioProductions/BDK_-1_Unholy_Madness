@@ -1,2 +1,2 @@
 # Bloody Kill Mod
-Hello.
+Hello. This mod may or may not be scrapped.
