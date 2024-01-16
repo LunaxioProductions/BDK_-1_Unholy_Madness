@@ -12,9 +12,9 @@ using Terraria.UI;
 using Microsoft.Xna.Framework.Graphics;
 using JoostMod.UI;
 
-namespace JoostMod
+namespace TouHouChaos
 {
-    public class JoostMod : Mod
+    public class TouHouChaos : Mod
     {
         internal bool battleRodsLoaded;
         internal static ModHotKey ArmorAbilityHotKey;
