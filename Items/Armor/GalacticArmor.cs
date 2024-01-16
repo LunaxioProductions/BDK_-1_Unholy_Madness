@@ -1,10 +1,10 @@
 using Terraria;
 using Terraria.ModLoader;
 
-namespace JoostMod.Items.Armor
+namespace TouHouChaos.Items.Armor
 {
     [AutoloadEquip(EquipType.Body)]
-    public class AirArmor : ModItem
+    public class GalacticArmor : ModItem
     {
         public override void SetStaticDefaults()
         {
