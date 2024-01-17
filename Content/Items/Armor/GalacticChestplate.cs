@@ -11,7 +11,7 @@ namespace TouhouChaos.Content.Items.Armor
 	public class GalacticChestplate : ModItem
 	{
 		public static int MaxManaIncrease = 200;
-		public static int MaxMinionIncrease = 1;
+		public static int MaxMinionIncrease = 6;
 
 		public override LocalizedText Tooltip => base.Tooltip.WithFormatArgs(MaxManaIncrease, MaxMinionIncrease);
 
