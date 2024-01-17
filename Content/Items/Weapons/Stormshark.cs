@@ -5,7 +5,7 @@ using Terraria.Audio;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace TouHouCHaos.Content.Items.Weapons
+namespace TouhouChaos.Content.Items.Weapons
 {
 	public class ExampleGun : ModItem
 	{
