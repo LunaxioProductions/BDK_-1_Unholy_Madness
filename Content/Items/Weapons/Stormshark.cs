@@ -19,8 +19,8 @@ namespace TouHouCHaos.Content.Items.Weapons
 			Item.rare = ItemRarityID.Green; // The color that the item's name will be in-game.
 
 			// Use Properties
-			Item.useTime = 8; // The item's use time in ticks (60 ticks == 1 second.)
-			Item.useAnimation = 8; // The length of the item's use animation in ticks (60 ticks == 1 second.)
+			Item.useTime = 4; // The item's use time in ticks (60 ticks == 1 second.)
+			Item.useAnimation = 4; // The length of the item's use animation in ticks (60 ticks == 1 second.)
 			Item.useStyle = ItemUseStyleID.Shoot; // How you use the item (swinging, holding out, etc.)
 			Item.autoReuse = true; // Whether or not you can hold click to automatically use it again.
 
@@ -33,7 +33,7 @@ namespace TouHouCHaos.Content.Items.Weapons
 
 			// Weapon Properties
 			Item.DamageType = DamageClass.Ranged; // Sets the damage type to ranged.
-			Item.damage = 20; // Sets the item's damage. Note that projectiles shot by this weapon will use its and the used ammunition's damage added together.
+			Item.damage = 101; // Sets the item's damage. Note that projectiles shot by this weapon will use its and the used ammunition's damage added together.
 			Item.knockBack = 5f; // Sets the item's knockback. Note that projectiles shot by this weapon will use its and the used ammunition's knockback added together.
 			Item.noMelee = true; // So the item's animation doesn't do damage.
 
