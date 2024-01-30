@@ -10,9 +10,9 @@ using JoostMod.Items;
 using Microsoft.Xna.Framework;
 using Terraria.UI;
 using Microsoft.Xna.Framework.Graphics;
-using JoostMod.UI;
+using BloodyKillMod.UI;
 
-namespace TouHouChaos
+namespace TouhouChaos
 {
     public class TouHouChaos : Mod
     {
