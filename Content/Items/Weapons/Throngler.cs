@@ -19,6 +19,7 @@ namespace TouhouChaos.Content.Items.Weapons.FinalUpgrades
             // Tooltip.SetDefault("'The King's innards spread across the land..'");
             //DisplayName.AddTranslation((int)GameCulture.CultureName.Chinese, "史莱姆雨");
             //Tooltip.AddTranslation((int)GameCulture.CultureName.Chinese, "史莱姆王的内腑撒得遍地都是..");
+            // help how do i change these properly
         }
 
         public override void SetDefaults()
@@ -48,7 +49,7 @@ namespace TouhouChaos.Content.Items.Weapons.FinalUpgrades
             {
                 if (line2.Mod == "Terraria" && line2.Name == "ItemName")
                 {
-                    line2.OverrideColor = new Color(0, Main.DiscoG, 255);
+                    line2.OverrideColor = new Color(0, Main.DiscoG,0);
                 }
             }
         }
